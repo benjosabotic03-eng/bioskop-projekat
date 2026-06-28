@@ -10,7 +10,7 @@ dijela: **backend** (Node.js + Express + PostgreSQL) i **frontend** (React + Vit
 
 ```
 cd backend
-cp .env.primjer .env        # podesite podatke o bazi (DB_KORISNIK, DB_LOZINKA...)
+cp .env.example .env        # podesite podatke o bazi (DB_KORISNIK, DB_LOZINKA...)
 npm install
 npm run seed                # kreira tabele i ubacuje test podatke
 npm start
